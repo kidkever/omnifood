@@ -1,0 +1,277 @@
+/* * * * * LAPTOPS -lg- * * * * */
+@media only screen and (max-width: 1200px) {
+  /*
+    .container {
+        padding: 0 2rem;
+    }
+    
+    .hero-text-box {
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+    */
+  html {
+    font-size: 15px;
+  }
+
+  section {
+    padding: 3rem 0;
+  }
+
+  .box {
+    padding: 0.5rem;
+  }
+
+  /* * * Features * * */
+  .features p.long-copy {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* * * Steps * * */
+  .steps .works-step p {
+    max-width: 450px;
+  }
+
+  /* * * Testimonials * * */
+  .testimonials blockquote {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+  }
+}
+
+/* * * * * TABLETS/LAPTOPS -md- * * * * */
+@media only screen and (max-width: 1023px) {
+  html {
+    font-size: 14px;
+  }
+
+  /* * * Features * * */
+  .features .box {
+    text-align: center;
+  }
+
+  /* * * Steps * * */
+  .steps .app-screen {
+    width: 50%;
+  }
+
+  .steps .works-step p {
+    margin-left: 4.5rem;
+  }
+
+  .steps .btn-app img {
+    margin: 0 0.5rem;
+  }
+
+  /* * * Plans * * */
+  .plans .plan-box {
+    padding: 0 1.5rem;
+  }
+
+  .plans .plan-box ul li {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .plans .plan-box ul li i {
+    font-size: 2rem;
+  }
+  .plans .small-icon {
+    margin-right: 0.8rem;
+    font-size: 1.3rem;
+  }
+
+  /* * * Footer * * */
+  footer li {
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  /* * * Header * * */
+  .main-nav a.mobile-nav-opened-icon,
+  .main-nav a.mobile-nav-closed-icon {
+    display: none;
+  }
+}
+
+/* * * * * TABLETS -sm- * * * * */
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 13px;
+  }
+
+  .container {
+    max-width: 95%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .long-copy {
+    width: 100%;
+  }
+
+  /* * * Header * * */
+  header .hero-text-box {
+    padding: 10rem 0;
+  }
+
+  /* Mobile Nav */
+  .main-nav {
+    margin: 0;
+  }
+
+  .main-nav li.links,
+  .main-nav a.mobile-nav-opened-icon {
+    display: none;
+  }
+
+  .main-nav a.mobile-nav-closed-icon {
+    float: right;
+    cursor: pointer;
+    margin: 1rem 0.7rem 0.5rem;
+  }
+
+  .main-nav a.mobile-nav-closed-icon i {
+    font-size: 3rem;
+    color: #eee;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+  }
+
+  .main-nav a.mobile-nav-closed-icon i:hover,
+  .main-nav a.mobile-nav-closed-icon i:active {
+    color: #e67e22;
+  }
+
+  /* Mobile Nav.Sticky */
+  header nav.sticky .main-nav,
+  header nav.sticky .main-nav a.mobile-nav-closed-icon {
+    margin: 0;
+  }
+
+  header nav.sticky .main-nav a.mobile-nav-closed-icon i {
+    color: #666;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+  }
+
+  header nav.sticky .main-nav a.mobile-nav-closed-icon i:hover,
+  header nav.sticky .main-nav a.mobile-nav-closed-icon i:active {
+    color: #e67e22;
+  }
+
+  /* * * Steps * * */
+  .steps .col {
+    width: 100%;
+  }
+
+  .steps .steps-box:first-child {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .steps .steps-box:last-child {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .steps .app-screen {
+    width: 40%;
+  }
+
+  .steps .works-step p {
+    margin: 0 auto;
+    max-width: none;
+  }
+
+  .steps .works-step div {
+    float: none;
+    margin-bottom: 1.5rem;
+  }
+
+  /* * * Cities * * */
+  .cities .col {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .cities h3 {
+    margin-left: 0;
+  }
+
+  .cities p {
+    text-align: center;
+  }
+
+  /* * * Testimonials * * */
+  .testimonials .container {
+    padding: 0 6rem;
+  }
+
+  .testimonials .col {
+    width: 100%;
+  }
+
+  /* * * Form * * */
+  .form .contact-form {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 663px) {
+  /* * * Plans * * */
+  .plans .container {
+    width: 70%;
+  }
+
+  .plans .col {
+    margin: 1% 0 5% 0;
+  }
+
+  .plans .span-1-of-3 {
+    width: 100%;
+  }
+
+  /* * * Form * * */
+  .form .contact-form {
+    width: 70%;
+  }
+  .form .col {
+    width: 100%;
+  }
+}
+
+/* * * * * MOBILE PHONES -xs- * * * * */
+
+@media only screen and (max-width: 480px) {
+  .plans .container {
+    width: 90%;
+  }
+
+  .testimonials .container {
+    padding: 0;
+  }
+
+  /* * * Form * * */
+  .form .contact-form {
+    width: 80%;
+  }
+
+  .form .col {
+    margin: 1% 0;
+  }
+
+  .form .col:last-of-type {
+    text-align: center;
+  }
+}
