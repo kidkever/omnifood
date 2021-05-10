@@ -262,6 +262,17 @@ header .hero-text-box {
   z-index: 4;
   margin: 0;
   list-style: none;
+  animation: animateNavOpen 0.5s ease-in-out;
+}
+
+@keyframes animateNavOpen {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
 }
 
 .mobile-nav-opened li.links {
