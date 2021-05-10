@@ -278,4 +278,8 @@
   .form .col:last-of-type {
     text-align: center;
   }
+
+  .span-1-of-4 {
+    width: 100%;
+  }
 }
